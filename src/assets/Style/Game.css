@@ -1,0 +1,130 @@
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url("@/assets/escape2.jfif");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  .game-title {
+    font-size: 2.5rem;
+    color: #0875e2;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .game-subtitle {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+  
+  .timer {
+    font-size: 1.1rem;
+    color: #3ce753;
+    margin-bottom: 20px;
+  }
+  
+  .enigma-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  .enigma-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .enigma-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .enigma-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enigma-button:hover {
+    background-color: #45a049;
+  }
+  
+  .feedback {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .achievements {
+    margin-top: 20px;
+    color: gold;
+  }
+  
+  .achievements ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
